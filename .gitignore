@@ -1,0 +1,21 @@
+# Maven
+target/
+**/target/
+
+# OryxOS runtime workspace
+.oryxos/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/

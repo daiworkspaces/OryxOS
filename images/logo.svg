@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">OryxOS</title>
+  <desc id="desc">OryxOS logo featuring a stylized oryx head and horns inside the letter O.</desc>
+
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fb923c"/>
+      <stop offset="0.52" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="horn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdba74"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#9a3412" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Symbol: the O is both an operating-system ring and an oryx silhouette. -->
+  <g transform="translate(54 20)" filter="url(#soft-shadow)">
+    <circle cx="120" cy="134" r="88" fill="none" stroke="url(#sunset)" stroke-width="24"/>
+
+    <!-- Oryx horns -->
+    <path d="M94 76 C80 50 73 26 76 4 C90 26 102 48 108 75"
+          fill="none" stroke="url(#horn)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M146 76 C160 50 167 26 164 4 C150 26 138 48 132 75"
+          fill="none" stroke="url(#horn)" stroke-width="12" stroke-linecap="round"/>
+
+    <!-- Oryx head -->
+    <path d="M88 87 L120 67 L152 87 L143 143 L120 169 L97 143 Z" fill="#0f172a"/>
+    <path d="M88 91 L66 79 L78 109 L98 116 Z" fill="#0f172a"/>
+    <path d="M152 91 L174 79 L162 109 L142 116 Z" fill="#0f172a"/>
+    <path d="M104 100 L120 88 L136 100 L132 133 L120 148 L108 133 Z" fill="#ffffff" fill-opacity="0.96"/>
+    <circle cx="104" cy="111" r="4" fill="#f97316"/>
+    <circle cx="136" cy="111" r="4" fill="#f97316"/>
+    <path d="M114 137 Q120 143 126 137" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="315" y="183"
+        font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="132" font-weight="750" letter-spacing="-6" fill="#0f172a">Oryx</text>
+  <text x="680" y="183"
+        font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="132" font-weight="750" letter-spacing="-6" fill="url(#sunset)">OS</text>
+
+  <!-- Small visual signature; no tagline so the mark remains reusable. -->
+  <rect x="320" y="215" width="504" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="320" y="215" width="146" height="8" rx="4" fill="url(#sunset)"/>
+</svg>

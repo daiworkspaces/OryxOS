@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: oryxos
+  # Persistence repositories are introduced by the storage implementation.
+  # Keep the initial executable scaffold bootable before a datasource exists.
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+  threads:
+    virtual:
+      enabled: true
+
+server:
+  port: ${ORYXOS_PORT:8080}
