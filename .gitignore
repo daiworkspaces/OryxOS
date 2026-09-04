@@ -3,8 +3,10 @@ target/
 **/target/
 
 # VitePress generated files
+website/node_modules/
 website/.vitepress/cache/
 website/.vitepress/dist/
+website/.vitepress/.temp/
 
 # OryxOS runtime workspace
 .oryxos/
