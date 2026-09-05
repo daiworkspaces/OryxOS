@@ -76,7 +76,7 @@ REST APIs expose runtime capabilities to business systems written in any languag
 
 ## Architecture
 
-![OryxOS Agent Harness OS architecture](/images/architecture.svg)
+![OryxOS Agent Harness OS architecture](../../docs/images/architecture.svg)
 
 The design keeps entry points, execution, reusable capabilities, and state behind clear boundaries. Security policy, sandboxing, credential handling, and audit belong in the execution path from the beginning.
 

@@ -76,7 +76,7 @@ OryxOS 直接实现决策循环，不把核心行为交给外部 Agent 框架。
 
 ## 架构
 
-![OryxOS Agent Harness OS 架构](/images/architecture.svg)
+![OryxOS Agent Harness OS 架构](../../../docs/images/architecture.svg)
 
 设计将接入、执行、可复用能力和状态放在清晰边界后。安全策略、沙箱、凭证管理与审计从一开始就属于执行链路。
 
