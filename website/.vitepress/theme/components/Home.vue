@@ -110,7 +110,7 @@ const terminalSteps = computed(() => [
             <a class="button primary" :href="isZh ? withBase('/zh/docs/what') : withBase('/docs/what')">
               {{ t('理解 OryxOS', 'Understand OryxOS') }} <span>→</span>
             </a>
-            <a class="button secondary" href="https://github.com/oryx-labs/oryxos" target="_blank" rel="noreferrer">
+            <a class="button secondary" href="https://github.com/daiworkspaces/OryxOS" target="_blank" rel="noreferrer">
               GitHub <span>↗</span>
             </a>
           </div>
@@ -276,13 +276,13 @@ const terminalSteps = computed(() => [
           <h2>{{ t('一份二进制。零仪式感。', 'One binary. Zero ceremony.') }}</h2>
           <p>{{ t('当前仓库提供 Java 21、Maven 九模块、可执行 Boot JAR、可执行 CLI 和最小健康接口。Agent 能力正在阶段一逐步实现。', 'The repository currently provides Java 21, nine Maven modules, executable Boot and CLI JARs, and a minimal health endpoint. Agent capabilities are progressing through Phase 1.') }}</p>
           <div class="launch-actions">
-            <a class="button primary" href="https://github.com/oryx-labs/oryxos" target="_blank" rel="noreferrer">{{ t('开始构建', 'Start building') }} →</a>
+            <a class="button primary" href="https://github.com/daiworkspaces/OryxOS" target="_blank" rel="noreferrer">{{ t('开始构建', 'Start building') }} →</a>
             <a class="text-link" :href="isZh ? withBase('/zh/docs/what') : withBase('/docs/what')">{{ t('阅读设计原则', 'Read the design principles') }}</a>
           </div>
         </div>
         <div class="terminal">
           <div class="terminal-title"><span></span><span></span><span></span><code>oryxos — zsh</code></div>
-          <pre><code><span class="dim">$</span> git clone https://github.com/oryx-labs/oryxos.git
+          <pre><code><span class="dim">$</span> git clone https://github.com/daiworkspaces/OryxOS.git
 <span class="dim">$</span> cd oryxos
 <span class="dim">$</span> mvn package -DskipTests
 
@@ -297,7 +297,7 @@ const terminalSteps = computed(() => [
     <footer class="site-footer">
       <div><strong>OryxOS</strong><span>{{ t('企业 Agent Harness OS', 'THE AGENT HARNESS OS') }}</span></div>
       <p>Apache License 2.0 · Java 21 · Spring Boot 3</p>
-      <a href="https://github.com/oryx-labs/oryxos">github.com/oryx-labs/oryxos ↗</a>
+      <a href="https://github.com/daiworkspaces/OryxOS">github.com/daiworkspaces/OryxOS ↗</a>
     </footer>
   </main>
 </template>

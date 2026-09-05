@@ -37,7 +37,7 @@ export default defineConfig({
           { text: 'What is OryxOS', link: '/docs/what' },
           { text: 'Architecture', link: '/#architecture' },
           { text: 'Demo', link: 'http://demo.robustmq.com:1524/admin/' },
-          { text: 'GitHub ↗', link: 'https://github.com/oryx-labs/oryxos' },
+          { text: 'GitHub ↗', link: 'https://github.com/daiworkspaces/OryxOS' },
         ],
         sidebar: {
           '/docs/': [
@@ -56,7 +56,7 @@ export default defineConfig({
           { text: 'OryxOS 是什么', link: '/zh/docs/what' },
           { text: '架构', link: '/zh/#architecture' },
           { text: '体验', link: 'http://demo.robustmq.com:1524/admin/' },
-          { text: 'GitHub ↗', link: 'https://github.com/oryx-labs/oryxos' },
+          { text: 'GitHub ↗', link: 'https://github.com/daiworkspaces/OryxOS' },
         ],
         sidebar: {
           '/zh/docs/': [
@@ -69,7 +69,7 @@ export default defineConfig({
 
   themeConfig: {
     siteTitle: 'OryxOS',
-    socialLinks: [{ icon: 'github', link: 'https://github.com/oryx-labs/oryxos' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/daiworkspaces/OryxOS' }],
     search: { provider: 'local' },
   },
 

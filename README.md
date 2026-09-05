@@ -8,11 +8,11 @@
 
 **The self-hosted Agent Harness OS for the enterprise.**
 
-[Website](https://oryxos.robustmq.com) · [Documentation](https://oryxos.robustmq.com/docs/what) · [中文文档](https://oryxos.robustmq.com/zh/docs/what) · [GitHub](https://github.com/oryx-labs/oryxos)
+[Website](https://oryxos.robustmq.com) · [Documentation](https://oryxos.robustmq.com/docs/what) · [中文文档](https://oryxos.robustmq.com/zh/docs/what) · [GitHub](https://github.com/daiworkspaces/OryxOS)
 
 [![Java 21](https://img.shields.io/badge/Java-21-ff6b2c?style=flat-square)](https://openjdk.org/projects/jdk/21/)
 [![Spring Boot 3](https://img.shields.io/badge/Spring_Boot-3.x-78f7d4?style=flat-square&labelColor=15181e)](https://spring.io/projects/spring-boot)
-[![License](https://img.shields.io/badge/License-Apache_2.0-f3f1eb?style=flat-square&labelColor=15181e)](https://github.com/oryx-labs/oryxos/blob/main/LICENSE)
+![License](https://img.shields.io/badge/License-Apache_2.0-f3f1eb?style=flat-square&labelColor=15181e)
 
 </div>
 
@@ -116,7 +116,7 @@ Multi-tenancy, SSO, full audit, tool policy, observability, and web management e
 ### Build all modules
 
 ```bash
-git clone https://github.com/oryx-labs/oryxos.git
+git clone https://github.com/daiworkspaces/OryxOS.git
 cd oryxos
 mvn clean package
 ```
@@ -184,7 +184,7 @@ The project is designed for private deployment, but application-level allowlists
 
 ## License
 
-OryxOS is released under the [Apache License 2.0](https://github.com/oryx-labs/oryxos/blob/main/LICENSE).
+OryxOS is released under the Apache License 2.0.
 
 ---
 
@@ -192,6 +192,6 @@ OryxOS is released under the [Apache License 2.0](https://github.com/oryx-labs/o
 
 **One directory defines one Agent. One foundation runs the fleet.**
 
-[oryxos.robustmq.com](https://oryxos.robustmq.com) · [github.com/oryx-labs/oryxos](https://github.com/oryx-labs/oryxos)
+[oryxos.robustmq.com](https://oryxos.robustmq.com) · [github.com/daiworkspaces/OryxOS](https://github.com/daiworkspaces/OryxOS)
 
 </div>
