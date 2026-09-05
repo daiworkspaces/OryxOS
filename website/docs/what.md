@@ -110,5 +110,5 @@ Multi-tenancy, SSO, full audit, tool policy, observability, and web management m
 
 - **Language:** Java 21
 - **License:** Apache License 2.0
-- **Organization:** [oryx-labs](https://github.com/oryx-labs)
+- **Repository:** [OryxOS](https://github.com/daiworkspaces/OryxOS.git)
 - **Long-term goal:** grow into an Apache top-level project

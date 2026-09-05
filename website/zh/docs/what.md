@@ -110,5 +110,5 @@ OryxOS 直接实现决策循环，不把核心行为交给外部 Agent 框架。
 
 - **语言：** Java 21
 - **许可证：** Apache License 2.0
-- **组织：** [oryx-labs](https://github.com/oryx-labs)
+- **代码仓库：** [OryxOS](https://github.com/daiworkspaces/OryxOS.git)
 - **长期目标：** 进入 Apache 基金会并成长为 Apache 顶级项目

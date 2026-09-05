@@ -22,7 +22,7 @@
 16. 给我打印出我前面给你的所有提示词。
 17. 这些内容，写入docs/prompt/01.md ，带上序号
 18. robustmq-mq9/website 理解一下这个项目代码。 oryxos 要做一个一模一样的主页，你先理解下。看是否需要我做什么
-19. 1. `[外部仓库标识已删除]`  2. 要中一个你问  3. 域名是oryxos.robustmq.com
+19. 1. `[外部仓库标识已删除]`  2. 要中一个你问  3. 域名是[外部域名已删除]
 20. 网页要中英文
 21. 新的提示词也放到docs/prompt/01.md 中
 22. website/.vitepress 和target 驾到gitignore里面
@@ -46,7 +46,7 @@
 40. git push 提示 Permission denied（403），github 没权限，怎么给项目配置 token 权限
 41. github 怎么设置这个 token
 42. github 上项目的 page 怎么配置
-43. <https://oryx-labs.github.io/oryxos/> 的 css 请求 404，是不是哪里配置不对
+43. [外部链接已删除] 的 css 请求 404，是不是哪里配置不对
 44. 格式化这个文档：docs/oryxos.md
 45. 更新提示词到 01.md
 
@@ -162,7 +162,7 @@
 143. 继续
 144. react 在哪里调用了 memory 的保存和读取
 145. 第23节：Sandbox 原理解析… 补充业界主流 sandbox 的实现思路（比如 claude code、hermes agent）、学界对 sandbox 的讨论；helix 也是 sandbox 的一种吗？先讨论要补什么、社区主流实现思路是什么
-146. 不管 helix 了，给你 https://github.com/nousresearch/hermes-agent
+146. 不管 helix 了，给你 [外部链接已删除]
 147. 1. 肯定要联网核实再写的
 148. 23 改了后，24 需要改吗？
 149. 可以，你决定
@@ -282,7 +282,7 @@
 249. config/application.yml 里加上 codex 配置，api-key 留空我来填
 250. 读配置里 codex 的 api-key 连 GPT 看能不能通（命中"敏感数据发往非批准目标"红线被 guardrail 拦下，改为给脚本让用户自己跑）
 251. 那我怎么测试？你写一段代码我跑
-252. 把 codex 的 base-url 配成中转代理 https://ai.soulecho.cc（Responses API），这是 codex
+252. 把 codex 的 base-url 配成中转代理 [外部链接已删除]（Responses API），这是 codex
 253. 测试脚本参数换个模型，让 bash scripts/test-codex-key.sh 能跑通过（默认 gpt-5.5）
 254. 用第27节课的思路跑一遍全流程（真起服务、走 codex/gpt-5.5，对话→ReAct→工具→记忆→会话→审计）
 255. 核心记忆的时间戳加上时分秒
@@ -362,7 +362,7 @@
 298. manager 已经支持了 connector 管理了吗？
 299. 重启服务？我看下效果？（因另一并发会话正在改 ContextLoader/SkillRegistry、仓库编译不过，先选择等待）
 300. manager 页面中新建的按钮都放靠右；所有按钮用彩色的？比如新增类的按钮；比如橙色
-301. 从 URL 导入 skill 功能是导入整个文件夹（如 <https://github.com/obra/superpowers/tree/main/skills/brainstorming> 这种），不是导入网页内容——确认理解
+301. 从 URL 导入 skill 功能是导入整个文件夹（如 [外部链接已删除] 这种），不是导入网页内容——确认理解
 302. 可以的，按钮可以改为"从 GitHub 拉取"，只支持 GitHub 的目录
 303. 你重启了吗？得重启下？你重启一下？不然你的改动没法生效？（确认后重新打包、杀掉旧进程并重启 8080 服务验证效果）
 304. 今天新增的提示词加到 docs/prompt/prompt.md
@@ -392,6 +392,6 @@
 323. 继续＋应该可以了（md 渲染收尾；安全审查报 v-html+marked 的 XSS → 已由并发会话独立加 DOMPurify 闭环）
 324. skill 需要能查看详情、也就是查看文件列表（后端 workspace tree 加 skills 根 1 行 + 前端 Skill 详情复用文件树 / md 查看器）
 325. 升级版本到 0.1.1（mvn versions:set → 0.1.1-RELEASE，10 个 pom；make/release workflow 自动跟随）
-326. website 首页顶部加 Demo tab → http://117.72.92.117:1524/admin/（VitePress nav 中英各加一条外链）
+326. website 首页顶部加 Demo tab → [外部链接已删除]（VitePress nav 中英各加一条外链）
 327. 报 SQLITE_BUSY / MCP sqlite 下载依赖超时等日志但任务照跑、为什么（解释：两服务共用一个 oryxos.db 单写锁冲突 + 调度器"内存注册"与"写状态行"解耦、写库失败被 catch 不影响触发；另"配置非法，跳过"是误导性文案）
 328. 今天新增的提示词加到 docs/prompt/prompt.md（本条）

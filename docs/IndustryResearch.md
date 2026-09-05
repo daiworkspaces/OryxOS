@@ -328,9 +328,9 @@ OryxOS 的远期图景：OryxOS 是单个节点上的 Agent 运行时，而连�
 
 ## 附录 B：主要参考资料
 
-1. **OpenClaw 相关**：OpenClaw GitHub（github.com/openclaw/openclaw）、官网 openclaw.ai、ClawHub skills 注册中心、VoltAgent awesome-openclaw-skills、BytePioneer-AI openclaw-china、中文社区 clawd.org.cn、社区教程与出版书籍、Tank OS（Sally O'Malley / Red Hat）、Lyzr OpenClaw 企业分析。
-2. **Hermes Agent 相关**：Hermes Agent GitHub（github.com/NousResearch/hermes-agent）、官方文档、awesome-hermes-usecases、飞书/企业微信部署 issue、PTG 企业级管理服务、腾讯云与阿里云部署指南、社区中文系列文档、OpenRouter 日推理量排行。
-3. **Java 生态相关**：Spring AI（docs.spring.io/spring-ai）、Spring AI Alibaba（java2ai.com）、LangChain4j。
+1. **OpenClaw 相关**：OpenClaw GitHub、项目官网、ClawHub skills 注册中心、VoltAgent awesome-openclaw-skills、BytePioneer-AI openclaw-china、中文社区、社区教程与出版书籍、Tank OS（Sally O'Malley / Red Hat）、Lyzr OpenClaw 企业分析。
+2. **Hermes Agent 相关**：Hermes Agent GitHub、官方文档、awesome-hermes-usecases、飞书/企业微信部署 issue、PTG 企业级管理服务、腾讯云与阿里云部署指南、社区中文系列文档、OpenRouter 日推理量排行。
+3. **Java 生态相关**：Spring AI、Spring AI Alibaba、LangChain4j。
 4. **业界标准**：Model Context Protocol（modelcontextprotocol.io）、agentskills.io 开放标准。
 5. **业界研究报告**：Anthropic 2026 State of AI Agents、Gartner 相关 Agent 治理与 AIOps 报告、企业级 AI Agent 应用实践研究报告等。
 6. **安全披露**：CVE-2026-25253（OpenClaw 1-click RCE）、Trend Micro 恶意 skill 报告、关联社区数据库泄漏分析、Cisco AI 安全测试。

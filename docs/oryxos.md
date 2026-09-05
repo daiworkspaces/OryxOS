@@ -144,6 +144,6 @@ Agent 通过工具操作外部世界。基础能力规划包含文件、Shell、
 - **语言**：Java 21
 - **许可证**：Apache License 2.0
 - **组织**：oryx-labs
-- **官网**：<https://oryxos.robustmq.com>
-- **代码仓库**：<https://github.com/daiworkspaces/OryxOS>
+- **项目文档**：[中文介绍](../website/zh/docs/what.md)
+- **代码仓库**：<https://github.com/daiworkspaces/OryxOS.git>
 - **长期目标**：进入 Apache 基金会并努力成为 Apache 顶级项目
