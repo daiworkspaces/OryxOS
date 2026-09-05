@@ -22,7 +22,7 @@
 16. 给我打印出我前面给你的所有提示词。
 17. 这些内容，写入docs/prompt/01.md ，带上序号
 18. robustmq-mq9/website 理解一下这个项目代码。 oryxos 要做一个一模一样的主页，你先理解下。看是否需要我做什么
-19. 1. `oryx-labs/oryxos`（外部链接已移除）  2. 要中一个你问  3. 域名是oryxos.robustmq.com
+19. 1. `[外部仓库标识已删除]`  2. 要中一个你问  3. 域名是oryxos.robustmq.com
 20. 网页要中英文
 21. 新的提示词也放到docs/prompt/01.md 中
 22. website/.vitepress 和target 驾到gitignore里面
